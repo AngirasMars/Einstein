@@ -12,7 +12,7 @@ const MODES = {
   }
 };
 
-const BACKEND_URL = "https://einstein-6u4g.onrender.com"; // Deployed on Render
+const BACKEND_URL = "https://einstein-6u4g.onrender.com/api/chat"; // Deployed on Render
 
 export default function EinsteinChat() {
   const [mode, setMode] = useState('fun');
